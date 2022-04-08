@@ -1,5 +1,15 @@
+html {
+    font-family: "./Media/CascadiaCode.ttf";
+}
+
 body {
     margin: 0;
+    background-color: #252525;
+    color: whitesmoke;
+    position: relative;
+    top: 90px;
+    height: 100%;
+    width: 100%;
 }
 
 nav {
@@ -9,16 +19,7 @@ nav {
     background-color: #03100b;
     top: 0;
     z-index: 1;
-}
-
-article {
-    background-color: #252525;
-    color: whitesmoke;
-}
-
-#intro {
-    position: relative;
-    top: 90px;
+    margin: 0;
 }
 
 #sign {
