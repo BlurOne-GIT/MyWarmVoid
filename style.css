@@ -1,4 +1,10 @@
+@font-face {
+    font-family: "CascadiaCode";
+    src: url(./Media/CascadiaCode.ttf);
+}
+
 body {
+    font-family: "CascadiaCode", sans-serif;
     margin: 0;
     background-color: #252525;
     color: whitesmoke;
@@ -18,18 +24,50 @@ nav {
     margin: 0;
 }
 
-#sign {
-    position: relative;
-    top: 29px;
-    left: 40px;
-}
-
 .navlink {
     position: relative;
     margin: 0px 8px;
     float: right;
     top: 29px;
     right: 32px;
+}
+
+.titlebox {
+    background-color: #353535;
+    width: 100%;
+    height: 80px;
+    margin: 24px 0;
+    box-shadow: 0 3px 5px 3px #03100b;
+}
+
+.title {
+    position: relative;
+    font-size: 28px;
+    top: 24px;
+    left: 40px;
+    width: calc(100% - 40px);
+}
+
+.thumbnail {
+    margin: 32px;
+    height: 360px;
+}
+
+.prod {
+    position: relative;
+}
+
+#blurversesign
+{
+    width: auto;
+    position: relative;
+    top: 8px;
+}
+
+#sign {
+    position: relative;
+    top: 29px;
+    left: 40px;
 }
 
 #logo {
@@ -40,4 +78,24 @@ nav {
     height: 64px;
     margin: 0px 32px;
     box-shadow: 0 0 15px 1px white;
+}
+
+#quote {
+    position: relative;
+    margin: 64px 0 0 80px;
+}
+
+#underquote {
+    position: relative;
+    margin: 16px 0 64px 90px;
+}
+
+#quoter {
+    display: inline-block;
+    justify-content: center;
+}
+
+#shitpost a {
+    display: block;
+    justify-content: center;
 }
